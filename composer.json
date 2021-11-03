@@ -1,0 +1,29 @@
+{
+    "name": "demoprj/composerpackagedemo",
+    "type": "project",
+    "description": "A demo for demoprj/composerpackage",
+    "keywords": [
+        "demo", 
+        "php", 
+        "composer",
+        "package"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tokoyi",
+            "email": "tokoyi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4",
+        "demoprj/composerpackage" : "dev-master"
+    },
+    "repositories": {
+        "local": {
+            "type": "path",
+            "url": "/opt/src/demoprj/ComposerPackage/"
+        }
+    }
+}
